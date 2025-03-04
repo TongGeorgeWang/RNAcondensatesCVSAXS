@@ -1,0 +1,8 @@
+
+Sample		ChiSqRed of final iteration 
+rU600Na		0.7378
+rUPR600Na	0.7843
+rA600Na		1.0807
+rAPR600Na	0.9635
+rC600Na		0.7664
+rCPR600Na	0.9667
