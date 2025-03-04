@@ -1,0 +1,6 @@
+
++PR30, CV, 150Na:
+Sample	Total arrivals	Total departures
+rU30	8070		7020
+rA30	371		34
+rC30	3462		2398

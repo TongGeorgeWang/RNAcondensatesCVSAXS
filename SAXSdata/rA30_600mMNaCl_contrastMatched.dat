@@ -1,0 +1,774 @@
+### DATA:
+#
+# 63
+#      Q             I(Q)           Error     
+1.09669464E-02  2.45727837E-02  9.85369645E-04
+1.21721054E-02  2.37584293E-02  8.86348169E-04
+1.33772643E-02  2.28453800E-02  8.13956559E-04
+1.45824233E-02  2.31164545E-02  7.66412681E-04
+1.57875822E-02  2.36948282E-02  7.44991191E-04
+1.69927412E-02  2.22934127E-02  7.13910628E-04
+1.81979001E-02  2.23938122E-02  6.67706179E-04
+1.94030591E-02  2.17383102E-02  6.35682233E-04
+2.06082180E-02  2.22375095E-02  5.96803520E-04
+2.18133770E-02  2.02443480E-02  5.18164970E-04
+2.30185359E-02  2.13428825E-02  4.61113919E-04
+2.42236949E-02  2.20932990E-02  4.30600438E-04
+2.54288538E-02  2.17348427E-02  4.12649941E-04
+2.66340128E-02  2.11305410E-02  3.98918055E-04
+2.78391717E-02  2.01198161E-02  3.88309616E-04
+2.90443307E-02  2.05494866E-02  3.78163578E-04
+3.02494896E-02  2.00969666E-02  3.68015142E-04
+3.14546486E-02  1.99260786E-02  3.60307656E-04
+3.26598075E-02  1.95444077E-02  3.46539286E-04
+3.38649665E-02  1.95011407E-02  3.37069086E-04
+3.56727049E-02  1.88232474E-02  2.31181311E-04
+3.74804433E-02  1.86269879E-02  3.21225263E-04
+3.92881817E-02  1.79605678E-02  2.22827633E-04
+4.10959202E-02  1.74715608E-02  3.10359872E-04
+4.29036586E-02  1.71564035E-02  2.15524320E-04
+4.53139765E-02  1.66972853E-02  2.11559735E-04
+4.77242944E-02  1.64599821E-02  2.07557526E-04
+5.01346123E-02  1.58032656E-02  2.02967344E-04
+5.25449302E-02  1.53509922E-02  1.99749719E-04
+5.49552481E-02  1.45460628E-02  1.96166360E-04
+5.73655660E-02  1.41748540E-02  1.92974445E-04
+6.03784633E-02  1.35173773E-02  1.54230967E-04
+6.33913607E-02  1.25983551E-02  1.84755116E-04
+6.64042581E-02  1.19813850E-02  1.48207656E-04
+7.00197349E-02  1.16576915E-02  1.44821495E-04
+7.36352118E-02  1.09188120E-02  1.41692483E-04
+7.78532681E-02  1.01679545E-02  1.19635743E-04
+8.20713244E-02  9.33154722E-03  1.35075293E-04
+8.62893807E-02  8.61895680E-03  1.14420207E-04
+9.11100165E-02  8.07707086E-03  1.11688091E-04
+9.59306523E-02  7.28685223E-03  1.09192001E-04
+1.00751288E-01  6.78510554E-03  1.09084241E-04
+1.06174503E-01  6.17891580E-03  1.02502931E-04
+1.12200298E-01  5.71088225E-03  9.86962017E-05
+1.18226093E-01  5.29168159E-03  9.34939450E-05
+1.24251888E-01  4.81348664E-03  9.04228736E-05
+1.30880262E-01  4.38545619E-03  8.01224451E-05
+1.38111216E-01  3.88397723E-03  7.76948485E-05
+1.45944749E-01  3.55109402E-03  6.98393656E-05
+1.53778282E-01  3.31658497E-03  7.34405237E-05
+1.62214395E-01  2.87700035E-03  6.18651953E-05
+1.71253087E-01  2.66290435E-03  6.42783574E-05
+1.80291779E-01  2.32720226E-03  5.85880498E-05
+1.90535630E-01  2.05033256E-03  5.37261822E-05
+2.01382060E-01  1.82526459E-03  5.22454594E-05
+2.12228491E-01  1.64906366E-03  5.17579076E-05
+2.23677501E-01  1.52466074E-03  4.78066955E-05
+2.36331670E-01  1.32950436E-03  4.68814214E-05
+2.49588418E-01  1.18542043E-03  4.79283338E-05
+2.63447746E-01  1.05297218E-03  4.58368674E-05
+2.78512233E-01  9.80534920E-04  4.62755438E-05
+2.94179299E-01  7.75708717E-04  4.68327376E-05
+3.10448945E-01  7.17095286E-04  4.57003535E-05
+
+
+### HEADER:
+#
+#{
+#    "analysis": {
+#        "guinier": {
+#            "I0": "0.0231942479969577",
+#            "I0_autorg_err": -1,
+#            "I0_err": 0.00014138565361764458,
+#            "I0_est_err": 7.842804596680948e-05,
+#            "I0_fit_err": 0.00014138565361764458,
+#            "Rg": "21.41110943256618",
+#            "Rg_autorg_err": -1,
+#            "Rg_err": 0.21175028408096272,
+#            "Rg_est_err": 0.18613785497038984,
+#            "Rg_fit_err": 0.21175028408096272,
+#            "nEnd": 34,
+#            "nStart": 3,
+#            "qEnd": "0.05254",
+#            "qRg_max": "1.292769885086481",
+#            "qRg_min": "0.23481448951148773",
+#            "qStart": "0.01097",
+#            "rsq": "0.9710491967840442"
+#        }
+#    },
+#    "calibration_params": {
+#        "Beam_Center_X": 1093.0,
+#        "Beam_Center_Y": 2069.0,
+#        "Detector Tilt": 0.0,
+#        "Detector Tilt Plane Rotation": 0.0,
+#        "Detector_X_Pixel_Size": 75.0,
+#        "Detector_Y_Pixel_Size": 75.0,
+#        "Integration Method": "nosplit_csr",
+#        "Radial_Average_Method": "pyFAI",
+#        "Sample-to-detector distance (mm)": 1781.0,
+#        "Wavelength (A)": 1.0937797326179362
+#    },
+#    "config_file": "/nfs/chess/daq/2024-1/id7a/Pollack_02_02_24/SAXS_02_02_24.cfg",
+#    "counters": {
+#        "I1": "0",
+#        "I2": "0",
+#        "I3": "0",
+#        "Seconds": "1"
+#    },
+#    "filename": "A600_MP.dat",
+#    "history": {
+#        "log_binning": {
+#            "final_points": 72,
+#            "initial_file": [
+#                "R_S_rA30 250uM, 600mM Na",
+#                {
+#                    "linear_binning": {
+#                        "final_points": 362,
+#                        "initial_file": [
+#                            "S_rA30 250uM, 600mM Na",
+#                            {
+#                                "subtraction": {
+#                                    "initial_file": [
+#                                        "rA30 250uM, 600mM Na",
+#                                        {
+#                                            "averaged_files": [
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000001_00001.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000002_00002.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000003_00003.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000004_00004.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000005_00005.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000006_00006.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000007_00007.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000008_00008.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000009_00009.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000010_00010.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000011_00011.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000012_00012.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000013_00013.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000014_00014.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000015_00015.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000016_00016.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000017_00017.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000018_00018.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000019_00019.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000020_00020.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000021_00021.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000022_00022.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000023_00023.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000024_00024.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000025_00025.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000026_00026.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000027_00027.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000028_00028.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000029_00029.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000030_00030.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000031_00031.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000032_00032.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000033_00033.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000034_00034.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000035_00035.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000036_00036.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000037_00037.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000038_00038.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000039_00039.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000040_00040.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000041_00041.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000042_00042.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000043_00043.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000044_00044.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000045_00045.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000046_00046.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000047_00047.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000048_00048.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000049_00049.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000051_00051.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000052_00052.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000053_00053.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000054_00054.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000055_00055.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000056_00056.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000057_00057.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000058_00058.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000059_00059.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000060_00060.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000061_00061.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000062_00062.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000063_00063.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000064_00064.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000065_00065.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000066_00066.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000067_00067.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000068_00068.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000069_00069.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000070_00070.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000071_00071.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000072_00072.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000073_00073.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000074_00074.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000075_00075.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000076_00076.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000077_00077.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000078_00078.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000079_00079.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000080_00080.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000081_00081.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000082_00082.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000083_00083.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000084_00084.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000085_00085.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000086_00086.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000087_00087.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000088_00088.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000089_00089.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000090_00090.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000091_00091.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000092_00092.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000093_00093.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000094_00094.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000095_00095.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000096_00096.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000097_00097.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000098_00098.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000099_00099.h5"
+#                                                ],
+#                                                [
+#                                                    "RNAPR30_MPsucrose_8_data_000100_00100.h5"
+#                                                ]
+#                                            ]
+#                                        }
+#                                    ],
+#                                    "subtracted_file": [
+#                                        "buffer 600mM Na | more frames",
+#                                        {
+#                                            "averaged_files": [
+#                                                [
+#                                                    "A_RNAPR30_MPsucrose_5_data_000001_00001",
+#                                                    {
+#                                                        "averaged_files": [
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000001_00001.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000002_00002.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000004_00004.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000005_00005.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000006_00006.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000007_00007.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000008_00008.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000009_00009.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000010_00010.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000011_00011.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000012_00012.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000013_00013.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000014_00014.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000015_00015.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000016_00016.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000017_00017.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000018_00018.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000019_00019.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000020_00020.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000021_00021.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000022_00022.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000023_00023.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000024_00024.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000025_00025.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000026_00026.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000027_00027.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000028_00028.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000029_00029.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000030_00030.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000031_00031.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000032_00032.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000033_00033.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000034_00034.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000035_00035.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000036_00036.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000037_00037.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000038_00038.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000039_00039.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000040_00040.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000041_00041.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000042_00042.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000043_00043.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000044_00044.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000045_00045.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000046_00046.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000047_00047.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000048_00048.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000049_00049.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_5_data_000050_00050.h5"
+#                                                            ]
+#                                                        ]
+#                                                    }
+#                                                ],
+#                                                [
+#                                                    "A_RNAPR30_MPsucrose_7_data_000001_00001",
+#                                                    {
+#                                                        "averaged_files": [
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000001_00001.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000002_00002.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000003_00003.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000004_00004.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000005_00005.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000006_00006.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000007_00007.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000008_00008.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000009_00009.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000010_00010.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000012_00012.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000013_00013.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000014_00014.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000015_00015.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000016_00016.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000017_00017.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000018_00018.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000019_00019.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000020_00020.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000021_00021.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000022_00022.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000023_00023.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000024_00024.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000025_00025.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000026_00026.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000027_00027.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000028_00028.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000029_00029.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000030_00030.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000031_00031.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000032_00032.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000033_00033.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000034_00034.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000035_00035.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000036_00036.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000037_00037.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000038_00038.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000039_00039.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000040_00040.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000041_00041.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000042_00042.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000043_00043.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000044_00044.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000045_00045.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000046_00046.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000047_00047.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000048_00048.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000049_00049.h5"
+#                                                            ],
+#                                                            [
+#                                                                "RNAPR30_MPsucrose_7_data_000050_00050.h5"
+#                                                            ]
+#                                                        ]
+#                                                    }
+#                                                ]
+#                                            ]
+#                                        }
+#                                    ]
+#                                }
+#                            }
+#                        ],
+#                        "initial_points": 1811
+#                    }
+#                }
+#            ],
+#            "initial_points": 362
+#        }
+#    },
+#    "normalizations": {
+#        "Absolute_scale": {
+#            "Absolute_scale_factor": 0.014636799358749463,
+#            "Method": "Water"
+#        },
+#        "Counter_norms": [
+#            [
+#                "/",
+#                "diode/150000"
+#            ]
+#        ],
+#        "Polarization": {
+#            "Used": false
+#        },
+#        "Solid_Angle_Correction": "On"
+#    },
+#    "raw_version": "2.2.1",
+#    "unit": ""
+#}
+
