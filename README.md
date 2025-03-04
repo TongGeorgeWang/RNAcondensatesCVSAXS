@@ -13,7 +13,7 @@ The MD analysis should only require a standard computer that is able to run the 
 
 **Software Requrements** <br />
 MATLAB R2021 or later is required to run MD analysis functions <br />
-Some code is used from: Matt J (2025). Analyze N-dimensional Convex Polyhedra (https://www.mathworks.com/matlabcentral/fileexchange/30892-analyze-n-dimensional-convex-polyhedra), MATLAB Central File Exchange. Retrieved March 4, 2025.
+Some code is used from: Matt J (2025). Analyze N-dimensional Convex Polyhedra (https://www.mathworks.com/matlabcentral/fileexchange/30892-analyze-n-dimensional-convex-polyhedra), MATLAB Central File Exchange. 
 
 **License** <br />
 This project is covered under the Apache 2.0 License.
