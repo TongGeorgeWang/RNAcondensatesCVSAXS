@@ -12,13 +12,8 @@ https://www.biorxiv.org/content/10.1101/2025.02.06.636987v1
 The MD analysis should only require a standard computer that is able to run the commonly available software below, with enough memory to complete moderate intensity computing tasks. <br />
 
 **Software Requrements** <br />
-MATLAB R2021 or later <br />
-  Special MATLAB dependency:  <br />
-  After EOM, the CRYSOL executable (from ATSAS) is utilized to compute scattering profiles. <br /> 
-The MATLAB code for running EOM may require a Windows OS, as it calls on remote DOS commands. <br />
-
-**Demos** <br />
-
+MATLAB R2021 or later is required to run MD analysis functions <br />
+Code is used as part of: Matt J (2025). Analyze N-dimensional Convex Polyhedra (https://www.mathworks.com/matlabcentral/fileexchange/30892-analyze-n-dimensional-convex-polyhedra), MATLAB Central File Exchange. Retrieved March 4, 2025.
 
 **License** <br />
 This project is covered under the Apache 2.0 License.
