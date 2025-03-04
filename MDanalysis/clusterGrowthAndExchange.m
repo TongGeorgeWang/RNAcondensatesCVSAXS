@@ -107,7 +107,7 @@ end
 
 % Count the number of departures and arrivals
 %   this part may be confusing, and that's because it is very difficult to avoid overcounting here; had to take an ABSOLUTE ROUNDABOUT approach
-%   I've tried to comment what the fuck I'm doing as best as possible but it probably won't make sense unfortunately 
+%   I've tried to comment what I'm doing as best as possible but it probably won't make sense unfortunately 
 nTotal = numel(distanceMatrix);
 for j = 1:nTotal-1
     differenceMatrix{j} = distanceMatrix{j+1} - distanceMatrix{j};
