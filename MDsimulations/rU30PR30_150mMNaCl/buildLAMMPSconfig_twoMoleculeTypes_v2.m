@@ -58,7 +58,7 @@ z0 = 80;
 
 Nstacks = 5; % (in z) How many molecules you want to stack before moving to next stack
 Narrays = 5; % (in x) How many stack arrays 
-NpolymersInARow = 3; % (in y) How many polymers you want to array, ass-to-mouth
+NpolymersInARow = 3; % (in y) How many polymers you want to array, in a line
 
 
 
