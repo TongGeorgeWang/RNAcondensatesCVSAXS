@@ -29,7 +29,7 @@ clear
 %
 
 
-%% Define shit
+%% Define 
 
 saveName = 'rC30PR30_250uM_equimolar';
 atomMasses = [131.2 57.05 128.2 101.1 156.2 71.08 115.1 129.1 163.2 99.06999999999999 113.2 128.1 186.2 ...
