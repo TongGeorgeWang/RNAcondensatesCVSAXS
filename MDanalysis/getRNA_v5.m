@@ -24,7 +24,7 @@ function getRNA_v5(dataBasename,analSubfolder)
 %
 %   
 %   GW June 2024
-%       v1: shitty version for getting things sorted 
+%       v1: basic version for getting things sorted 
 %       v2: updated method of PBC correction (made different versions in case something got screwed up)
 %       v3: added parallel computing functionality to run faster (involved changing the way variables are indexed)
 %       v4: clustering and PBC correction done in Ovito instead of here; start by reading that output
