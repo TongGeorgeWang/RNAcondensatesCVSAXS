@@ -4,7 +4,7 @@
 
 **Overview** <br />
 Repository for experimental data and computational analyses presented in: <br />
-**Tong Wang, Qingyue Hu, Scout Fronhofer, Lois Pollack, Cation-induced intramolecular coil-to-globule transition in poly(ADP-ribose), bioRxiv 2025.** <br />
+**Tong Wang, Qingyue Hu, Scout Fronhofer, Lois Pollack, Nucleotide-specific RNA conformations and dynamics within ribonucleoprotein condensates, bioRxiv 2025.** <br />
 https://www.biorxiv.org/content/10.1101/2025.02.06.636987v1
 
 
