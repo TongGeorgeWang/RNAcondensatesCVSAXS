@@ -89,7 +89,7 @@ for iter = 1:nFrames
                     distances(i,j) = 0; % else, not in the same cluster
                 end
             else
-                % piss off to next iteration (*)
+                % go to next iteration (*)
             end
         end
     end
