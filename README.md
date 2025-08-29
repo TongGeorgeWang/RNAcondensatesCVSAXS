@@ -1,10 +1,11 @@
-# RNAcondensatesCVSAXS
+# RNAcondensateAnalyzer
 
 ![GithubGraphic](https://github.com/user-attachments/assets/519bc8a6-5358-4d9f-b2dc-3394780fe1b5)
 
 **Overview** <br />
-Repository for experimental data and computational analyses presented in: <br />
-**Tong Wang, Qingyue Hu, Scout Fronhofer, Lois Pollack, Nucleotide-specific RNA conformations and dynamics within ribonucleoprotein condensates, bioRxiv 2025.** <br />
+Code for analysis of MD-derived RNA conformations in a biomolecular condensate context <br />
+Also a repository for experimental contrast-variation SAXS data and computational analyses presented in: <br />
+**Tong Wang, Qingyue Hu, Scout Fronhofer, Lois Pollack, Nucleotide-specific RNA conformations and dynamics as precursors to ribonucleoprotein condensates, bioRxiv 2025.** <br />
 https://www.biorxiv.org/content/10.1101/2025.02.06.636987v1
 
 
